@@ -25,7 +25,7 @@
               adipisicing elit. Necessitatibus, commodi!<br />
             </span>
             <span>
-            Sign up now to get started.<br />You know you want to.
+              Sign up now to get started.<br />You know you want to.
             </span>
           </p>
         </div>
@@ -34,32 +34,32 @@
             <label>Lets do this</label>
             <div class="names-container">
               <div>
-                <label>FIRST NAME</label>
-                <input />
+                <label for="first-name">FIRST NAME</label>
+                <input required type="text" id="first-name" name="first-name" placeholder="John" />
               </div>
               <div>
-                <label>LAST NAME</label>
-                <input />
+                <label for="last-name">LAST NAME</label>
+                <input required type="text" name="last-name" placeholder="Doe" />
               </div>
             </div>
             <div class="details-container">
               <div>
-                <label>EMAIL</label>
-                <input />
+                <label id="email">EMAIL</label>
+                <input required for="email" type="email" placeholder="email" />
               </div>
               <div>
-                <label>PHONE NUMBER</label>
-                <input />
+                <label for="phone-number">PHONE NUMBER</label>
+                <input required type="tel" id="phone-number" placeholder="0743924723" pattern="+254743924723"/>
               </div>
             </div>
             <div class="password-container">
               <div>
-                <label>PASSWORD</label>
-                <input />
+                <label for="password">PASSWORD</label>
+                <input required id="password" type="PASSWORD" />
               </div>
               <div>
-                <label>CONFIRM PASSWORD</label>
-                <input />
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input required id="confirm-password" type="PASSWORD" />
               </div>
             </div>
             <div class="wrapper">
@@ -101,7 +101,7 @@
                 </span>
               </a>
             </div>
-            <p>Already have an account?<a>Log in</a></p>
+            <p>Already have an account?<a class="login">Log in</a></p>
           </form>
         </div>
       </div>
